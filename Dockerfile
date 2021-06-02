@@ -17,7 +17,7 @@ RUN apt-get update && \
     rm -Rf /tmp/* 
 
 RUN cd /home && \
-    git clone https://github.com/NVlabs/stylegan2-ada.git
+    git clone https://github.com/NeillWhite/stylegan2-ada.git
 
 RUN pip install --upgrade pip && \
     pip install scipy==1.3.3 requests==2.22.0 Pillow==6.2.1 h5py==2.9.0 imageio==2.9.0 \ 
